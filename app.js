@@ -3,7 +3,7 @@
 const VERSION = '1.0.0';
 // Hardcoded rather than derived from location.origin/pathname so a shared team link
 // is always correct even when "Share" is tapped from a local/dev copy of the app.
-const APP_URL = 'https://jv4732501.github.io/basketballscore/';
+const APP_URL = 'https://jv4732501.github.io/basketball-score/';
 
 function clone(obj) {
   return structuredClone(obj);
