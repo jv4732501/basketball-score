@@ -1262,9 +1262,8 @@ function renderSetup() {
 
   el.innerHTML = `
     ${banner}
-    <h1>HoopScore</h1>
     <section class="card">
-      <h2>My Team</h2>
+      <h2>Team</h2>
       ${state.teams.length ? `
         <label>Saved team
           <select id="my-team-select">
